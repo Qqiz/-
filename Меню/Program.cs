@@ -21,7 +21,7 @@ namespace Меню // Note: actual namespace depends on the project name.
             Console.WriteLine($"Нажмите {(int)GameMenu.Загрузить} что бы загрузить сохранение");
             Console.WriteLine($"Нажмите {(int)GameMenu.Настройки} что бы открыть настройки");
             Console.WriteLine($"Нажмите {(int)GameMenu.Выход} что бы выйти");
-       
+            Console.WriteLine($"Нажмите {(int)GameMenu.Начать_новую} что бы начать новую игру");
             string input = Console.ReadLine();
             GameMenu menu= (GameMenu)int.Parse(input);
             Console.WriteLine($"Вы выбрали {menu}");
